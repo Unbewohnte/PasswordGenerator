@@ -1,5 +1,4 @@
 import random
-#import sys
 import string
 from tkinter import *
 import tkinter.font as font

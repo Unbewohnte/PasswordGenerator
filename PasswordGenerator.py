@@ -188,15 +188,11 @@ clear_button = Button(root, text = 'Clear', bg = back)
 clear_button.config(command = clear)
 clear_button.place(x = 590, y = 230 , width = 100)
 
-copyright = Label(root, text = '©Unbewohnte', bg = back)
-copyright.place(x = 590 ,y = 280)
 
 scale_length = Scale(root, orient = "horizontal", length = 200, from_ = 1, bg = back)
 scale_length.place(x = 370,y = 0)
 label_length = Label(root, text = "The length :", bg = back)
 label_length.place(x = 270,y = 20)
 
-
-# ©Unbewohnte
 
 root.mainloop()
